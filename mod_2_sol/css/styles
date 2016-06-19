@@ -1,0 +1,108 @@
+
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+}
+#first {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#last {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 991px or less */
+@media screen and (max-width: 991px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#first {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#last {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 767px or less */
+@media screen and (max-width: 767px) {
+
+	#first {
+		width: auto;
+		float: none;
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#last {
+		width: auto;
+		float: none;
+	}
+
+}
+
+
+
+
+#first {
+	background: #f8f8f8;
+}
+#last {
+	background: #f0efef;
+}
+header, #first, #middle, #last {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #first, #middle, #last, footer {
+	border: solid 1px #ccc;
+}
