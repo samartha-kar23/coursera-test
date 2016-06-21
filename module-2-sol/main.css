@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	color: white;
+	padding: 0px;
+}
+div{
+	position: relative;
+}
+section{
+	margin: 10px;
+}
+#topic{width: 320px;
+    padding: 5px;
+    border: 1px solid green;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: 10px;
+    background-color: green;
+
+}
+
+#subt1{
+	background-color: yellow;
+	float: right;
+	padding: 5px;
+	clear: left;
+	border: 1px solid black;
+}
+#cont1{
+	clear: right;
+
+}
+@media (max-width: 991px) and (min-width: 768px)
+{
+
+	.bg2{
+	background-color: pink;
+	width: 45%;
+	
+	float: left;
+	}
+	.bg22{
+	background-color: pink;
+	width: 45%;
+	
+	float: right;
+	}
+
+	.bg33{
+	background-color: pink;
+	width: 97.7%;
+	
+	float: left;
+	}
+
+
+}
+@media (max-width: 767px)
+{
+	.bg1{
+	background-color: pink;
+	width: 97%;
+	
+	float: left;
+	}
+
+
+}
+@media (min-width: 992px)
+{
+	.bg3{
+	background-color: pink;
+	width: 31%;
+	
+	float: left;
+	}
+
+	
+
+
+}
