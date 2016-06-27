@@ -11,6 +11,12 @@ body {
   border-radius: 0;
   border: 0;
 }
+.def{
+  color: #22b7f2;
+  margin: 10px;
+  font-size: 30px;
+  text-shadow: 3px 3px #f00000;   
+}
 
 #top1{
   color: #22b7f2;
