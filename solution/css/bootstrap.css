@@ -12,6 +12,12 @@ html {
 body {
   margin: 0;
 }
+.page-header {
+ color: #22b7f2;
+  margin: 10px;
+  font-size: 30px;
+  text-shadow: 3px 3px #f00000;  
+}
 article,
 aside,
 details,
@@ -1408,11 +1414,7 @@ a.bg-danger:hover,
 a.bg-danger:focus {
   background-color: #e4b9b9;
 }
-.page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
-}
+
 ul,
 ol {
   margin-top: 0;

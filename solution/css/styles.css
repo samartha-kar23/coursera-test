@@ -11,7 +11,7 @@ body {
   border-radius: 0;
   border: 0;
 }
-.def{
+.dev{
   color: #22b7f2;
   margin: 10px;
   font-size: 30px;
@@ -158,7 +158,7 @@ body {
 
 
 /* HOME PAGE */
-.container .jumbotron {
+.container .jumbotron  {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
 }
@@ -275,7 +275,7 @@ h3.menu-item-title {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
+  .container .jumbotron  {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
   }
@@ -368,7 +368,7 @@ h3.menu-item-title {
   /* End Footer */
 
   /* Home Page */
-  .container .jumbotron {
+  .container .jumbotron{
     margin-top: 30px;
     padding: 0;
   }
